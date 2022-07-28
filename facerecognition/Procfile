@@ -1,1 +1,1 @@
-web: gunicorn facerecognition.wsgi
+web: gunicorn facerecognition.wsgi --log-file
